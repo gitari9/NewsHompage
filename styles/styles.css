@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700;800&family=Montserrat:wght@500;700&family=Roboto:wght@400;700&display=swap');
+.header {
+    max-width: 1300px;
+    margin: auto;
+    justify-content: center;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo {
+    width: 60px;
+    height: 35px;
+}
+.menul {
+    display: flex;
+}
+
+.menul li {
+    margin-left: 50px;
+    list-style: none;
+    color:  hsl(236, 13%, 42%);
+}
+.t:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    gap: 40px;
+}
+.img {
+    width: 100%;
+    padding: 10px;
+}
+.content {
+    display: flex;
+}
+.content h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    width: 15ch;
+    margin: 16px 80px 16px 10px;
+}
+.content p {
+    margin-bottom: 15px;
+    color: hsl(236, 13%, 42%);
+    font-size: 18px;
+}
+.content button {
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    padding: 12.8px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+}
+.content button:hover {
+    cursor: pointer;
+    background-color: hsl(240, 100%, 5%);
+}
+.details {
+    
+    background-color: hsl(240, 100%, 5%);
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+.details h2 {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.details h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+.details h3:hover {
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
+}
+.details p {
+    color: hsl(233, 8%, 79%);
+    font-size: 16px;
+}
+.details hr {
+    border: 1px solid hsl(236, 13%, 42%);
+    border-bottom: none;
+    margin-top: 30px;
+}
+.photos {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.picsa {
+    display: flex;
+    justify-content: center;
+}
+.picsa img {
+    display: flex;
+    margin-right: 20px;
+    width: 150px;
+}
+.number {
+    font-size: 30px;
+    font-weight: bold;
+    color: hsl(236, 13%, 42%);
+    opacity: 75%;
+}
+.picsa h4 {
+    font-size: 20px;
+    color: hsl(240, 100%, 5%);
+    font-weight: bold;
+}
+.h:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+.words {
+    color: hsl(236, 13%, 42%);
+    font-size: 18px;
+    width: 25ch;
+}
+
+
+@media screen and (max-width: 400px) {
+   .container {
+    display: block;
+   }
+   .content {
+    display: block;
+   }
+   .photos {
+    display: block;
+   }
+   .menul {
+    display: none;
+   }
+   .content h1 {
+    width: unset;
+    margin-left: 0;
+    margin-right: 0;
+}
+.img {
+    padding: unset;
+}
+.details {
+    margin-right: 0;
+}
+}
+
+
